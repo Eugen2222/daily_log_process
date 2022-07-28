@@ -1,0 +1,155 @@
+2022-04-01 09:43:20 INFO  ETL:84 - =====================Start ETL===============================
+2022-04-01 09:43:20 INFO  ETL:97 - Try to get config file
+2022-04-01 09:43:20 INFO  ETL:145 - Init ETL inform and variables
+2022-04-01 09:43:20 INFO  ETL:163 - Try to connect to db :jdbc:oracle:thin:@10.70.12.26:1521/orclpdb.dw.com.tw
+2022-04-01 09:43:20 INFO  ETL:164 - Try to login with :VIDB
+2022-04-01 09:43:22 INFO  ETL:177 - Find 0 records in source table
+2022-04-01 09:43:22 INFO  ETL:179 - Try to update target file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.txt.
+2022-04-01 09:43:22 DEBUG ETL:340 - Interval:-100
+2022-04-01 09:43:22 DEBUG ETL:353 - Select * From CRD_LX_ATF_01_APPAUDITLOG where DATE_TM >='2021-12-22T00:00:00' AND DATE_TM<'2022-04-01T00:00:00'
+2022-04-01 09:43:22 DEBUG ETL:379 - Write 150 records.
+2022-04-01 09:43:22 DEBUG ETL:386 - Write 31 records.
+2022-04-01 09:43:22 INFO  ETL:183 - Totally read and write 181 records.
+2022-04-01 09:43:22 INFO  ETL:184 - Try to create flg file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.flg.
+2022-04-01 09:43:22 INFO  ETL:187 - Completed.
+2022-04-01 09:43:22 INFO  ETL:188 - Try to housekeep.
+2022-04-01 09:43:22 INFO  ETL:190 - Testing===
+2022-04-01 09:43:22 INFO  ETL:191 - Try to insert testing data 
+2022-04-01 09:43:22 DEBUG ETL:631 - insert into CRD_LX_ATF_01_AppAuditLog VALUES (' ', ' ', '2021-03-31T59:59:59', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', ' ', ' ', ' ')
+2022-04-01 09:43:22 INFO  ETL:644 - Insert 100 rows with datetime 2021-03-31T59:59:59
+2022-04-01 09:43:22 DEBUG ETL:439 - Housekeeping Interval:-1 years.
+2022-04-01 09:43:22 DEBUG ETL:478 -  DELETE FROM CRD_LX_ATF_01_AppAuditLog where DATE_TM <='2021-03-31T59:59:59'
+2022-04-01 09:43:22 INFO  ETL:195 - Delete 100 rows.
+2022-04-01 09:43:22 INFO  ETL:196 - Completed.
+2022-04-01 09:43:22 INFO  ETL:202 - Try to send successful email.
+2022-04-01 09:43:32 INFO  ETL:212 - Completed.
+2022-04-01 09:43:32 INFO  ETL:241 - All tasks have been completed.
+2022-04-01 09:44:04 INFO  ETL:84 - =====================Start ETL===============================
+2022-04-01 09:44:04 INFO  ETL:97 - Try to get config file
+2022-04-01 09:44:04 INFO  ETL:145 - Init ETL inform and variables
+2022-04-01 09:44:04 INFO  ETL:163 - Try to connect to db :jdbc:oracle:thin:@10.70.12.26:1521/orclpdb.dw.com.tw
+2022-04-01 09:44:04 INFO  ETL:164 - Try to login with :VIDB
+2022-04-01 09:44:06 INFO  ETL:177 - Find 0 records in source table
+2022-04-01 09:44:06 INFO  ETL:179 - Try to update target file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.txt.
+2022-04-01 09:44:06 DEBUG ETL:340 - Interval:-1
+2022-04-01 09:44:06 DEBUG ETL:353 - Select * From CRD_LX_ATF_01_APPAUDITLOG where DATE_TM >='2022-03-31T00:00:00' AND DATE_TM<'2022-04-01T00:00:00'
+2022-04-01 09:44:06 INFO  ETL:183 - Totally read and write 0 records.
+2022-04-01 09:44:06 INFO  ETL:184 - Try to create flg file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.flg.
+2022-04-01 09:44:06 INFO  ETL:187 - Completed.
+2022-04-01 09:44:06 INFO  ETL:188 - Try to housekeep.
+2022-04-01 09:44:06 INFO  ETL:190 - Testing===
+2022-04-01 09:44:06 INFO  ETL:191 - Try to insert testing data 
+2022-04-01 09:44:06 DEBUG ETL:631 - insert into CRD_LX_ATF_01_AppAuditLog VALUES (' ', ' ', '2021-03-31T59:59:59', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', ' ', ' ', ' ')
+2022-04-01 09:44:06 INFO  ETL:644 - Insert 100 rows with datetime 2021-03-31T59:59:59
+2022-04-01 09:44:06 DEBUG ETL:439 - Housekeeping Interval:-1 years.
+2022-04-01 09:44:06 DEBUG ETL:478 -  DELETE FROM CRD_LX_ATF_01_AppAuditLog where DATE_TM <='2021-03-31T59:59:59'
+2022-04-01 09:44:06 INFO  ETL:195 - Delete 100 rows.
+2022-04-01 09:44:06 INFO  ETL:196 - Completed.
+2022-04-01 09:44:06 INFO  ETL:202 - Try to send successful email.
+2022-04-01 09:44:15 INFO  ETL:212 - Completed.
+2022-04-01 09:44:15 INFO  ETL:241 - All tasks have been completed.
+2022-04-01 09:44:36 INFO  ETL:84 - =====================Start ETL===============================
+2022-04-01 09:44:36 INFO  ETL:97 - Try to get config file
+2022-04-01 09:44:36 INFO  ETL:145 - Init ETL inform and variables
+2022-04-01 09:44:36 INFO  ETL:163 - Try to connect to db :jdbc:oracle:thin:@10.70.12.26:1521/orclpdb.dw.com.tw
+2022-04-01 09:44:36 INFO  ETL:164 - Try to login with :VIDB
+2022-04-01 09:44:38 INFO  ETL:173 - Testing===
+2022-04-01 09:44:38 INFO  ETL:174 - Try to insert testing data 
+2022-04-01 09:44:38 DEBUG ETL:537 - insert into CRD_LX_ATF_01_AppAuditLog VALUES (' ', ' ', '2022-03-31T59:59:59', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', ' ', ' ', ' ')
+2022-04-01 09:44:38 INFO  ETL:550 - Insert 100 rows with datetime 2022-03-31T59:59:59
+2022-04-01 09:44:38 INFO  ETL:177 - Find 0 records in source table
+2022-04-01 09:44:38 INFO  ETL:179 - Try to update target file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.txt.
+2022-04-01 09:44:38 DEBUG ETL:340 - Interval:-1
+2022-04-01 09:44:38 DEBUG ETL:353 - Select * From CRD_LX_ATF_01_APPAUDITLOG where DATE_TM >='2022-03-31T00:00:00' AND DATE_TM<'2022-04-01T00:00:00'
+2022-04-01 09:44:38 DEBUG ETL:386 - Write 100 records.
+2022-04-01 09:44:38 INFO  ETL:183 - Totally read and write 100 records.
+2022-04-01 09:44:38 INFO  ETL:184 - Try to create flg file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.flg.
+2022-04-01 09:44:38 INFO  ETL:187 - Completed.
+2022-04-01 09:44:38 INFO  ETL:188 - Try to housekeep.
+2022-04-01 09:44:38 INFO  ETL:190 - Testing===
+2022-04-01 09:44:38 INFO  ETL:191 - Try to insert testing data 
+2022-04-01 09:44:38 DEBUG ETL:631 - insert into CRD_LX_ATF_01_AppAuditLog VALUES (' ', ' ', '2021-03-31T59:59:59', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', ' ', ' ', ' ')
+2022-04-01 09:44:38 INFO  ETL:644 - Insert 100 rows with datetime 2021-03-31T59:59:59
+2022-04-01 09:44:38 DEBUG ETL:439 - Housekeeping Interval:-1 years.
+2022-04-01 09:44:38 DEBUG ETL:478 -  DELETE FROM CRD_LX_ATF_01_AppAuditLog where DATE_TM <='2021-03-31T59:59:59'
+2022-04-01 09:44:38 INFO  ETL:195 - Delete 100 rows.
+2022-04-01 09:44:38 INFO  ETL:196 - Completed.
+2022-04-01 09:44:38 INFO  ETL:202 - Try to send successful email.
+2022-04-01 09:44:47 INFO  ETL:212 - Completed.
+2022-04-01 09:44:47 INFO  ETL:241 - All tasks have been completed.
+2022-04-01 09:47:55 INFO  ETL:84 - =====================Start ETL===============================
+2022-04-01 09:47:55 INFO  ETL:97 - Try to get config file
+2022-04-01 09:47:55 INFO  ETL:145 - Init ETL inform and variables
+2022-04-01 09:47:55 INFO  ETL:163 - Try to connect to db :jdbc:oracle:thin:@10.70.12.26:1521/orclpdb.dw.com.tw
+2022-04-01 09:47:55 INFO  ETL:164 - Try to login with :VIDB
+2022-04-01 09:47:57 INFO  ETL:177 - Find 0 records in source table
+2022-04-01 09:47:57 INFO  ETL:179 - Try to update target file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.txt.
+2022-04-01 09:47:57 DEBUG ETL:340 - Interval:-1
+2022-04-01 09:47:57 DEBUG ETL:353 - Select * From CRD_LX_ATF_01_APPAUDITLOG where DATE_TM >='2022-03-31T00:00:00' AND DATE_TM<'2022-04-01T00:00:00'
+2022-04-01 09:47:57 DEBUG ETL:386 - Write 100 records.
+2022-04-01 09:47:57 INFO  ETL:183 - Totally read and write 100 records.
+2022-04-01 09:47:57 INFO  ETL:184 - Try to create flg file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.flg.
+2022-04-01 09:47:57 INFO  ETL:187 - Completed.
+2022-04-01 09:47:57 INFO  ETL:188 - Try to housekeep.
+2022-04-01 09:47:57 INFO  ETL:190 - Testing===
+2022-04-01 09:47:57 INFO  ETL:191 - Try to insert testing data 
+2022-04-01 09:47:57 DEBUG ETL:631 - insert into CRD_LX_ATF_01_AppAuditLog VALUES (' ', ' ', '2021-03-31T59:59:59', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', ' ', ' ', ' ')
+2022-04-01 09:47:57 INFO  ETL:644 - Insert 100 rows with datetime 2021-03-31T59:59:59
+2022-04-01 09:47:57 DEBUG ETL:439 - Housekeeping Interval:-1 years.
+2022-04-01 09:47:57 DEBUG ETL:478 -  DELETE FROM CRD_LX_ATF_01_AppAuditLog where DATE_TM <='2021-03-31T23:59:59'
+2022-04-01 09:47:57 INFO  ETL:195 - Delete 0 rows.
+2022-04-01 09:47:57 INFO  ETL:196 - Completed.
+2022-04-01 09:47:57 INFO  ETL:202 - Try to send successful email.
+2022-04-01 09:48:07 INFO  ETL:212 - Completed.
+2022-04-01 09:48:07 INFO  ETL:241 - All tasks have been completed.
+2022-04-01 09:49:01 INFO  ETL:84 - =====================Start ETL===============================
+2022-04-01 09:49:01 INFO  ETL:97 - Try to get config file
+2022-04-01 09:49:01 INFO  ETL:145 - Init ETL inform and variables
+2022-04-01 09:49:01 INFO  ETL:163 - Try to connect to db :jdbc:oracle:thin:@10.70.12.26:1521/orclpdb.dw.com.tw
+2022-04-01 09:49:01 INFO  ETL:164 - Try to login with :VIDB
+2022-04-01 09:49:03 INFO  ETL:179 - Find 381 records in source table
+2022-04-01 09:49:03 INFO  ETL:180 - Try to update target file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.txt.
+2022-04-01 09:49:03 DEBUG ETL:341 - Interval:-1
+2022-04-01 09:49:03 DEBUG ETL:354 - Select * From CRD_LX_ATF_01_APPAUDITLOG where DATE_TM >='2022-03-31T00:00:00' AND DATE_TM<'2022-04-01T00:00:00'
+2022-04-01 09:49:03 DEBUG ETL:387 - Write 100 records.
+2022-04-01 09:49:03 INFO  ETL:184 - Totally read and write 100 records.
+2022-04-01 09:49:03 INFO  ETL:185 - Try to create flg file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.flg.
+2022-04-01 09:49:03 INFO  ETL:188 - Completed.
+2022-04-01 09:49:03 INFO  ETL:189 - Try to housekeep.
+2022-04-01 09:49:03 INFO  ETL:191 - Testing===
+2022-04-01 09:49:03 INFO  ETL:192 - Try to insert testing data 
+2022-04-01 09:49:03 DEBUG ETL:632 - insert into CRD_LX_ATF_01_AppAuditLog VALUES (' ', ' ', '2021-03-31T59:59:59', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', ' ', ' ', ' ')
+2022-04-01 09:49:03 INFO  ETL:645 - Insert 100 rows with datetime 2021-03-31T59:59:59
+2022-04-01 09:49:03 DEBUG ETL:440 - Housekeeping Interval:-1 years.
+2022-04-01 09:49:03 DEBUG ETL:479 -  DELETE FROM CRD_LX_ATF_01_AppAuditLog where DATE_TM <='2021-03-31T23:59:59'
+2022-04-01 09:49:03 INFO  ETL:196 - Delete 0 rows.
+2022-04-01 09:49:03 INFO  ETL:197 - Completed.
+2022-04-01 09:49:03 INFO  ETL:203 - Try to send successful email.
+2022-04-01 09:49:12 INFO  ETL:213 - Completed.
+2022-04-01 09:49:12 INFO  ETL:242 - All tasks have been completed.
+2022-04-01 09:50:25 INFO  ETL:84 - =====================Start ETL===============================
+2022-04-01 09:50:25 INFO  ETL:97 - Try to get config file
+2022-04-01 09:50:25 INFO  ETL:145 - Init ETL inform and variables
+2022-04-01 09:50:25 INFO  ETL:163 - Try to connect to db :jdbc:oracle:thin:@10.70.12.26:1521/orclpdb.dw.com.tw
+2022-04-01 09:50:25 INFO  ETL:164 - Try to login with :VIDB
+2022-04-01 09:50:27 INFO  ETL:179 - Find 481 records in source table
+2022-04-01 09:50:27 INFO  ETL:180 - Try to update target file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.txt.
+2022-04-01 09:50:27 DEBUG ETL:341 - Interval:-100
+2022-04-01 09:50:27 DEBUG ETL:354 - Select * From CRD_LX_ATF_01_APPAUDITLOG where DATE_TM >='2021-12-22T00:00:00' AND DATE_TM<'2022-04-01T00:00:00'
+2022-04-01 09:50:27 DEBUG ETL:380 - Write 150 records.
+2022-04-01 09:50:27 DEBUG ETL:387 - Write 131 records.
+2022-04-01 09:50:27 INFO  ETL:184 - Totally read and write 281 records.
+2022-04-01 09:50:27 INFO  ETL:185 - Try to create flg file:C:\workfile\CUB_etl\test\aplog\CRD_LX_ATF_01_AppAuditLog.flg.
+2022-04-01 09:50:27 INFO  ETL:188 - Completed.
+2022-04-01 09:50:27 INFO  ETL:189 - Try to housekeep.
+2022-04-01 09:50:27 INFO  ETL:191 - Testing===
+2022-04-01 09:50:27 INFO  ETL:192 - Try to insert testing data 
+2022-04-01 09:50:27 DEBUG ETL:632 - insert into CRD_LX_ATF_01_AppAuditLog VALUES (' ', ' ', '2021-03-31T59:59:59', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', ' ', ' ', ' ')
+2022-04-01 09:50:27 INFO  ETL:645 - Insert 100 rows with datetime 2021-03-31T59:59:59
+2022-04-01 09:50:27 DEBUG ETL:440 - Housekeeping Interval:-1 years.
+2022-04-01 09:50:27 DEBUG ETL:479 -  DELETE FROM CRD_LX_ATF_01_AppAuditLog where DATE_TM <='2021-03-31T23:59:59'
+2022-04-01 09:50:27 INFO  ETL:196 - Delete 0 rows.
+2022-04-01 09:50:27 INFO  ETL:197 - Completed.
+2022-04-01 09:50:27 INFO  ETL:203 - Try to send successful email.
+2022-04-01 09:50:36 INFO  ETL:213 - Completed.
+2022-04-01 09:50:36 INFO  ETL:242 - All tasks have been completed.
